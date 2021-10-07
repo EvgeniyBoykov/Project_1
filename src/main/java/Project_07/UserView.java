@@ -12,7 +12,6 @@ public class UserView {
         while (true) {
             System.out.println("Введите название города: ");
             String city = scanner.nextLine();
-
             System.out.println("Введите 1 для прогноза погоды на 1 день, 5 для прогноза погоды на 5 дней. Для выхода введите 0.");
             String command = scanner.nextLine();
 
