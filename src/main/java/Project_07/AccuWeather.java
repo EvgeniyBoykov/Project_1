@@ -33,6 +33,7 @@ public class AccuWeather<pass> implements Weather {
         //http://dataservice.accuweather.com/forecasts/v1/daily/1day/349727
         switch (period) {
             case NOW:
+
                 HttpUrl httpUrl1 = new HttpUrl.Builder()
                         .scheme(PROTOCOL)
                         .host(BASE_HOST)
